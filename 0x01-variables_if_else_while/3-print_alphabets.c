@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Task 3 prints the alphabet in lowecase, and then in uppercase
+ *main - Task 3 prints the alphabet in lower, and uppercase
  *followed by a new line
  *
- *Return : 0
+ *Return: 0
  **/
 int main(void)
 {
@@ -19,7 +19,6 @@ int main(void)
 	{
 	putchar(ch);
 	}
-	putchar(10);
-       	/* this is the ASCII code for new line */
+	putchar(10); /* this is the ACII code for new line*/
 	return (0);
 }
