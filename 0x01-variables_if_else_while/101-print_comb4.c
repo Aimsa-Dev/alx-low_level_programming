@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *main - Task 1 print the last digit of the number stored in the varibale n
+ *main - Task 1 print the last digit of the number stored in the variable n
  *
  *Return: 0
  **/
@@ -22,13 +22,18 @@ int main(void)
 	{
 	if (n > ch && m > n)
 	{
+	putchar(ch);
+	putchar(n);
+	putchar(m);
+	if (ch != 55 || n != 56 || m != 57)
+	{
 	putchar(44);
 	putchar(32);
 	}
 	}
 	}
 	}
-        }       
-        putchar(10);
+	}
+	putchar(10);
 	return (0);
 }
