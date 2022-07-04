@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *main - prints all possible differnt combinations of two digits 
+ *main - prints all possiblle different combinqations of two digits
  *
  *Return: 0
  **/
@@ -18,7 +19,7 @@ int main(void)
 	if (n > ch)
 	{
 	putchar(ch);
-	piutchar(n);
+	putchar(n);
 	if (ch != 56 || n != 57)
 	{
 	putchar(44);
@@ -27,7 +28,6 @@ int main(void)
 	}
 	}
 	}
-
 	putchar(10);
 	return (0);
 }
