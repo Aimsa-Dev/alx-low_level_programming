@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * _isdigit - Check if paramter c represents an digit.
  * @c: Int representing an ascii character
@@ -11,4 +12,5 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
+	return (0);
 }
