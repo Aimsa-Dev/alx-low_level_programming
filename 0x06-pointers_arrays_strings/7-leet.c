@@ -5,6 +5,7 @@
  * @s: pointer to char params
  * Return: *s
  */
+
 char *leet(char *s)
 {
 	int i;
@@ -21,4 +22,5 @@ char *leet(char *s)
 			}
 		}
 	}
+	return (s);
 }
